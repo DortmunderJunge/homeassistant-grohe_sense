@@ -60,7 +60,8 @@ Graphing water consumption is also nice. Note that the data returned by Grohe's 
 Put the following in your home assistant config (N.B., format has changed, this component is no longer configured as a sensor platform)
 ```
 grohe_sense:
-  refresh_token: "YOUR_VERY_VERY_LONG_REFRESH_TOKEN"
+  username: "YOUR_GROHE_EMAIL"
+  password: "YOUR_GROHE_PASSWORD"
 ```
 
 ## Remarks on the "API"
